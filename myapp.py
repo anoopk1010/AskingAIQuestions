@@ -28,6 +28,5 @@ if path:
     response = gpt3(path)
 #print(response)
 
-st.title("Question: " + path)
 st.write("Response: " + response)
 
