@@ -9,7 +9,7 @@ Created on Fri Dec 24 19:26:50 2021
 import openai
 import streamlit as st
 def gpt3(stext):
-    openai.api_key = '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'
+    openai.api_key = '-Your API Key here - Key may vary-'
     response = openai.Completion.create(
         engine="davinci-instruct-beta-v3",
         prompt=stext,
